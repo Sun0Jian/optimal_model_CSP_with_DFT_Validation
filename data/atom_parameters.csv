@@ -1,0 +1,6 @@
+symbol,charge,shannon_radius,mass,vdw_radius,covalent_radius,bonding_type
+Ga,1.5,0.62,69.723,1.87,1.26,ionic
+N,-1.5,1.46,14.007,1.55,0.71,ionic
+O,-2.0,1.40,15.999,1.52,0.66,ionic
+C,0.0,0.77,12.011,1.70,0.77,covalent
+Si,0.0,1.11,28.085,2.10,1.11,covalent
