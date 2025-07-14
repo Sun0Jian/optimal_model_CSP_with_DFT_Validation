@@ -1,6 +1,9 @@
 """
 main.py - Main program for atom type assignment
 Dynamically loads parameters based on atom list
+
+Author: Jian Sun.
+Recent Updated: Jul/14/2025
 """
 
 import numpy as np
@@ -48,7 +51,7 @@ def assign_atom_types(positions: list, composition: dict) -> list:
 def main():
     try:
         # 1. Define crystal composition and atom list
-        composition = {'Ga': 16, 'N': 16}  # Atom count for GaN crystal
+        composition = {'Ga':2, 'N':2}  # Atom count for GaN crystal
         atom_list = list(composition.keys())  # Required atom types
         
         # 2. Load all relevant parameters

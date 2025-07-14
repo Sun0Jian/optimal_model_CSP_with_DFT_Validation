@@ -1,3 +1,10 @@
+"""
+lattice_grid.py - Build basic coordinates sturctures for 7 different kind of crystal systems.
+
+Author: Jian Sun.
+Recent Updated: Jul/13/2025
+"""
+
 import numpy as np
 from typing import Tuple, List, Optional
 import itertools

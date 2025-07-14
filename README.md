@@ -2,13 +2,15 @@
 
 ## Step 1: Use simplified potential to initiate integer programming and generate the first batch of candidate structures. 
 
-### Version 1(Jun/13/2025)：Optimize to find least energy model with specific number of atoms. Need to specify the data for each atom, including charge, A, pho, c for calculate Buckingham energy, Shannon radius. Need to specify atom pair potential parameters, lattice length, composition(numbers of atoms), and grid divisions.
+### Version 1(Jun/13/2025 by Jian Sun)：Optimize to find least energy model with specific number of atoms. 
 
-### Version 2(Jun/23/2025): Add symmetry orbits and constraints. Need to specify space group.
+Need to specify the data for each atom, including charge, A, pho, c for calculate Buckingham energy, Shannon radius. Need to specify atom pair potential parameters, lattice length, composition(numbers of atoms), and grid divisions.
+
+### Version 2(Jun/23/2025 by Jian Sun): Add symmetry orbits and constraints. Need to specify space group.
 
 Update 1(Jul/8/2025): Add get data part, store paramters for Buckingham Energy calculation(a, pho, c). Update test code for complex structure.
 
-### Version 3(Jul/13/2025): Add file lattice_grid.py, parameter_loader.py, potentials.py.
+### Version 3(Jul/13/2025 by Jian Sun): Add file lattice_grid.py, parameter_loader.py, potentials.py.
 
 lattice_grid.py: Construct geometry for calculation, suppport 7 kinds of crystal system.
 

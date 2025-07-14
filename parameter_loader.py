@@ -1,6 +1,9 @@
 """
 parameter_loader.py - General parameter loading module
 Dynamically loads required parameters based on atom list
+
+Author: Jian Sun.
+Recent Updated: Jul/13/2025
 """
 
 import csv

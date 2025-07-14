@@ -1,6 +1,9 @@
 """
 potentials.py - General potential energy calculation module
 Supports multiple potential models: Buckingham, electrostatic, bond-order (Morse/Tersoff), etc.
+
+Author: Jian Sun.
+Recent Updated: Jul/13/2025
 """
 
 import numpy as np
